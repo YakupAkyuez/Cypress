@@ -1,0 +1,38 @@
+{
+  "name": "cypress-learn-do-practice",
+  "version": "1.0.0",
+  "description": "cypress learn do practice",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:spec": "cypress run --spec",
+    "cy:verify": "cypress verify",
+    "cy:version": "cypress version",
+    "cy:info": "cypress info",
+    "cy:test:chrome": "cypress run --browser chrome",
+    "cy:test:canary": "cypress run --browser chrome:canary",
+    "cy:test:firefox": "cypress run --browser firefox",
+    "cy:test:electron": "cypress run --browser electron",
+    "cy:test:edge": "cypress run --browser edge",
+    "cy:test:webkit": "cypress run --browser webkit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miktadozturk/cypress-learn-do-practice.git"
+  },
+  "author": "miktad ozturk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miktadozturk/cypress-learn-do-practice/issues"
+  },
+  "homepage": "https://github.com/miktadozturk/cypress-learn-do-practice#readme",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "cypress": "^12.0.1",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-time-marks": "^1.4.0",
+    "cypress-xpath": "^2.0.1",
+    "playwright-webkit": "^1.28.1"
+  }
+}
